@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ttnd"
+    tools:context=".frament.NewFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Thông tin người dùng"
+        android:textColor="@android:color/black"
+        android:textSize="24dp" />
+
+    <ImageView
+        android:id="@+id/user1"
+        android:layout_width="351dp"
+        android:layout_height="181dp"
+        android:layout_margin="50dp"
+        android:src="@drawable/dog3" />
+
+    <TextView
+        android:layout_width="197dp"
+        android:layout_height="157dp"
+        android:layout_marginTop="250dp"
+        android:text="long"
+        android:textSize="30dp" />
+    <TextView
+        android:layout_width="197dp"
+        android:layout_height="181dp"
+        android:text="Windy"
+        android:layout_marginTop="290dp"
+        android:textSize="30dp"/>
+    <TextView
+        android:layout_width="197dp"
+        android:layout_height="181dp"
+        android:layout_marginTop="320dp"
+        android:textSize="30dp"/>
+
+
+    <TextView
+        android:layout_width="315dp"
+        android:layout_height="181dp"
+        android:layout_marginTop="370dp"
+        android:text="long11072000@gmail.com"
+        android:textSize="30dp" />
+
+</FrameLayout>

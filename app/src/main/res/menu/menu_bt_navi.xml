@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--tạo menun chứa các giá trị trong đó-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_news" android:title="Sản phẩm" android:icon="@drawable/newspaper" />
+    <item android:id="@+id/menu_order" android:title="Giỏ hàng" android:icon="@drawable/order" />
+    <item android:id="@+id/menu_account" android:title="Tài khoản" android:icon="@drawable/account" />
+
+</menu>
