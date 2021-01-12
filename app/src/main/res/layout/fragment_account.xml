@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/ttnd"
+    android:background="@color/navi"
     tools:context=".frament.NewFragment">
 
     <!-- TODO: Update blank fragment layout -->
@@ -11,6 +11,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
+        android:layout_marginLeft="90dp"
+        android:fontFamily="@font/alfa_slab_one"
         android:text="Thông tin người dùng"
         android:textColor="@android:color/black"
         android:textSize="24dp" />
@@ -20,32 +22,38 @@
         android:layout_width="351dp"
         android:layout_height="181dp"
         android:layout_margin="50dp"
-        android:src="@drawable/dog3" />
+        android:src="@drawable/cuu" />
+
+    <TextView
+        android:layout_width="284dp"
+        android:layout_height="117dp"
+        android:layout_marginTop="300dp"
+        android:text="Thành Long"
+        android:layout_marginLeft="70dp"
+        android:textSize="30dp" />
 
     <TextView
         android:layout_width="197dp"
-        android:layout_height="157dp"
-        android:layout_marginTop="250dp"
-        android:text="long"
-        android:textSize="30dp" />
-    <TextView
-        android:layout_width="197dp"
         android:layout_height="181dp"
-        android:text="Windy"
-        android:layout_marginTop="290dp"
-        android:textSize="30dp"/>
+        android:layout_marginTop="360dp"
+        android:layout_marginLeft="70dp"
+        android:text="20 year old"
+        android:textSize="30dp" />
+
     <TextView
         android:layout_width="197dp"
         android:layout_height="181dp"
         android:layout_marginTop="320dp"
-        android:textSize="30dp"/>
+        android:layout_marginLeft="70dp"
+        android:textSize="30dp" />
 
 
     <TextView
         android:layout_width="315dp"
         android:layout_height="181dp"
-        android:layout_marginTop="370dp"
-        android:text="long11072000@gmail.com"
+        android:layout_marginTop="410dp"
+        android:text="longnguyen@gmail.com"
+        android:layout_marginLeft="70dp"
         android:textSize="30dp" />
 
 </FrameLayout>

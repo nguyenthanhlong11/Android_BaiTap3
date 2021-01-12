@@ -45,30 +45,30 @@ public class SQL extends SQLiteOpenHelper {
         String ROW2 = "INSERT INTO popular"  + " Values (2,'Chó xù','dog2','5.0','4.5 minis', 'Miễn phí vận chuyển','150','Extra special');";
         db.execSQL(ROW2);
 
-        String ROW3 = "INSERT INTO popular"   + " Values (3,'Chó xù 1','dog3','5.0','4.5 minis', 'Miễn phí vận chuyển','150','Extra special');";
+        String ROW3 = "INSERT INTO popular"   + " Values (3,'Chó xù ','dog3','5.0','4.5 minis', 'Miễn phí vận chuyển','150','Extra special');";
         db.execSQL(ROW3);
-        String ROW4 = "INSERT INTO popular"   + " Values (4,'Chó xù 2','dog4','5.0','4.5 minis', 'Miễn phí vận chuyển','150','Extra special');";
+        String ROW4 = "INSERT INTO popular"   + " Values (4,'Chó xù pull','dog4','5.0','4.5 minis', 'Miễn phí vận chuyển','150','Extra special');";
         db.execSQL(ROW4);
-        String ROW5 = "INSERT INTO popular"   + " Values (5,'Chó xù 3','dog5','5.0','4.5 minis', 'Miễn phí vận chuyển','150','Extra special');";
+        String ROW5 = "INSERT INTO popular"   + " Values (5,'Chó xù mặt xệ','dog5','5.0','4.5 minis', 'Miễn phí vận chuyển','150','Extra special');";
         db.execSQL(ROW5);
-        String ROW6 = "INSERT INTO popular"   + " Values (6,'Chó xù 4','dog6','5.0','4.5 minis', 'Miễn phí vận chuyển','150','Extra special');";
+        String ROW6 = "INSERT INTO popular"   + " Values (6,'Chó xù Hàn Quốc','dog6','5.0','4.5 minis', 'Miễn phí vận chuyển','150','Extra special');";
         db.execSQL(ROW6);
-        String ROW7 = "INSERT INTO popular"   + " Values (7,'Chó xù 5','dog1','5.0','4.5 minis', 'Miễn phí vận chuyển','150','Extra special');";
+        String ROW7 = "INSERT INTO popular"   + " Values (7,'Chó xù Nhật','dog1','5.0','4.5 minis', 'Miễn phí vận chuyển','150','Extra special');";
         db.execSQL(ROW7);
         // insert du lieu vao bang new product
-        String R1 = "INSERT INTO newproduct" + " Values (1,'Chó xù 6','dog2','5.0','4.5 minis', 'Miễn phí vận chuyển','150000','Extra special');";
+        String R1 = "INSERT INTO newproduct" + " Values (1,'Chó xù Xù','dog2','5.0','4.5 minis', 'Miễn phí vận chuyển','150000','Extra special');";
         db.execSQL(R1);
 
-        String R2 = "INSERT INTO newproduct"  + " Values (2,'Chó xù 7','dog3','5.0','4.5 minis', 'Miễn phí vận chuyển','230000','Extra special');";
+        String R2 = "INSERT INTO newproduct"  + " Values (2,'Chó xù hiếm','dog3','5.0','4.5 minis', 'Miễn phí vận chuyển','230000','Extra special');";
         db.execSQL(R2);
 
-        String R3 = "INSERT INTO newproduct"   + " Values (3,'Chó xù 8','dog5','5.0','4.5 minis', 'Miễn phí vận chuyển','1700000','Extra special');";
+        String R3 = "INSERT INTO newproduct"   + " Values (3,'Chó xù nhiều lông','dog5','5.0','4.5 minis', 'Miễn phí vận chuyển','1700000','Extra special');";
         db.execSQL(R3);
 
-        String R4 = "INSERT INTO newproduct"   + " Values (4,'Chó xù 9','dog6','5.0','4.5 minis', '15k nội thành','7600000','Extra special');";
+        String R4 = "INSERT INTO newproduct"   + " Values (4,'Chó xù hiếm','dog6','5.0','4.5 minis', '15k nội thành','7600000','Extra special');";
         db.execSQL(R4);
 
-        String R5 = "INSERT INTO newproduct"   + " Values (5,'Chó xù 10','dog4','5.0','4.5 minis', '15k nội thành','4560000','Extra special');";
+        String R5 = "INSERT INTO newproduct"   + " Values (5,'Chó xù xù','dog4','5.0','4.5 minis', '15k nội thành','4560000','Extra special');";
         db.execSQL(R5);
 //
     }
